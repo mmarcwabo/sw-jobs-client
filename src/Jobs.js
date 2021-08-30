@@ -4,7 +4,7 @@ import Job from './Job';
 import JobModal from './JobModal';
 
 //Mobile stepper for pagination
-import makeStyles from '@material-ui/core/styles/makeStyles';
+import { makeStyles } from '@material-ui/styles';
 import useTheme from '@material-ui/core/styles/useTheme';
 import MobileStepper from '@material-ui/core/MobileStepper';
 import Button from '@material-ui/core/Button';
